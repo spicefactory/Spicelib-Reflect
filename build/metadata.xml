@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<flex-config>
+	<compiler>
+		
+		<keep-as3-metadata append="true">
+			<name>Metadata</name>
+			<name>Target</name>
+			<name>DefaultProperty</name>
+			<name>Required</name>
+			<name>AssignableTo</name>
+			<name>Event</name>
+		</keep-as3-metadata>
+		
+	</compiler>
+</flex-config>
