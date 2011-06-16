@@ -15,6 +15,8 @@
  */
 
 package org.spicefactory.lib.reflect {
+
+import org.spicefactory.lib.collection.Map;
 import org.spicefactory.lib.errors.IllegalArgumentError;
 import org.spicefactory.lib.errors.IllegalStateError;
 import org.spicefactory.lib.reflect.cache.DefaultReflectionCache;
@@ -24,7 +26,6 @@ import org.spicefactory.lib.reflect.provider.ClassInfoProviderFactory;
 import org.spicefactory.lib.reflect.types.Any;
 import org.spicefactory.lib.reflect.types.Private;
 import org.spicefactory.lib.reflect.types.Void;
-import org.spicefactory.lib.util.collection.Map;
 
 import flash.system.ApplicationDomain;
 import flash.utils.Proxy;
